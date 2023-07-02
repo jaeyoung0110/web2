@@ -1,0 +1,61 @@
+/* 선택자 종류
+  전체 선택자 : *
+  태그 선택자 : 해당 태그 이름
+  클래스 선택자 : .
+  ID 선택자 : #
+  하위 선택자 : 선택자1 선택자2
+  자식 선택자 : 선택자1>선택자2
+  복수 선택자 : 선택자1,선택자2
+*/
+
+p {
+  color: blue;
+}
+
+.main {
+  width: 200px;
+  height: 30%;
+  font-size: 30px;
+  background-color: rgba(20, 20, 20, 0.4);
+}
+
+.modalBtn {
+  color: gray;
+  background-color: black;
+  font-size: large;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 4px;
+}
+
+.modal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 60%;
+}
+
+.modalText {
+  position: absolute;
+}
+
+.modal button {
+  position: absolute;
+  margin-top: 150px;
+}
+
+.hidden {
+  display: none;
+}
